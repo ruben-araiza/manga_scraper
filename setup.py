@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
+
 setup(
-    name='manga_scraper',
+    name='mangascraper',
     packages=find_packages(
         include=[
             'requests',
@@ -8,7 +9,7 @@ setup(
         ]
     ),
     version='0.1',
-    description='Library to download manga images from https://ww5.manganelo.tv/',
+    description='Tools to download manga images from https://ww5.manganelo.tv/',
     author='Ruben Araiza',
     license='MIT',
 )

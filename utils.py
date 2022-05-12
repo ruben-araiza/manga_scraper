@@ -19,15 +19,3 @@ def sanitize_name(dirty_name):
     clean_name = dirty_name.replace(' ', '_').replace('/', '_').replace('\'', '').replace('\"', '')
     return clean_name
 
-
-if __name__ == '__main__':
-    names = [
-        'asdfasd/asdasd/asdasd',
-        "asdsd'asdasd'",
-        'qsdasd"asdasd"asdasd',
-        'asdasd asdasd asdsd'
-        'asdasdasd asdasd/ asdasd"asdd'
-
-    ]
-    for name in names:
-        print(name, '\t',sanitize_name(name))

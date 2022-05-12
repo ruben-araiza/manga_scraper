@@ -17,7 +17,7 @@ pip install -r requeirements.txt
 
 ## Usage
 
-You can run a donwload by
+You can run a download by
 
 ```
 python -m mangascraper <manga url>
